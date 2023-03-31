@@ -63,7 +63,7 @@ select {
     padding-left: 50px;
     size: 50px;
 }
-body, html {
+.marginaalit {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
