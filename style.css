@@ -24,10 +24,6 @@ table {
 	border-collapse: collapse;
 	width: 40%;
 }
-.center {
-	margin-left: auto;
-	margin-right: auto;
-}
 div {
 	margin-bottom: 10px;
 }
@@ -41,3 +37,13 @@ div span {
 	background-color: #000;
 	color: #fff;
 } 
+.reseptikaks {
+	color: #FDD017;
+}
+.reseptiyks {
+	color: #FC6C85;
+}
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
