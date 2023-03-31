@@ -8,12 +8,7 @@
 	<body class="etusivu">
         <h1>SMOOTHIE HEAVEN</h1>
         <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Reseptit</h2>
-        <table id="taulukko1" class="taulukko">
-            <tr>
-                <td> Resepti 1</td>
-                <td> Resepti 2</td>
-            </tr>
-        </table>   
+     
         <h2>Miksi smoothie?</h2>
             <p class="sivu1">Smoothie on ihana aamupala, välipala, iltapala tai vaikkapa kevyt lounas!</p>
                 <ol style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" style="padding-left: 300px;" style="padding-right: 100px;">
@@ -24,6 +19,67 @@
                     <li>Makuelämys: Smoothiet ovat usein herkullisia ja monipuolisia juomia, joita voi valmistaa monenlaisilla aineksilla ja makuyhdistelmillä.</li>
                 </ol>
 
+            </body>
+            <style>
+              button {
+                background-color: rgb(214, 235, 97);
+                color: white;
+                font-size: 16px;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+              }
+              
+              .popup {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 20px;
+                background-color: white;
+                border: 1px solid black;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                z-index: 1;
+              }
+              
+              .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 1;
+              }
+            </style>
+          </head>
+          <body>
+            <button id="myButton">PAINA TÄSTÄ!</button>
             
+            <div class="overlay" style="display:none;"></div>
+            <div class="popup" style="display:none;">
+              <h2>Heippa!</h2>
+              <p>Kiva, että löysit meidän sivuille</p>
+              <button id="closeButton">Sulje</button>
+            </div>
+            
+            <script>
+              var button = document.getElementById("myButton");
+              var popup = document.querySelector(".popup");
+              var overlay = document.querySelector(".overlay");
+              var closeButton = document.getElementById("closeButton");
+              
+              button.addEventListener("click", function() {
+                popup.style.display = "block";
+                overlay.style.display = "block";
+              });
+              
+              closeButton.addEventListener("click", function() {
+                popup.style.display = "none";
+                overlay.style.display = "none";
+              });
+            </script>
+          </body>     
 	</body>
 </html>
