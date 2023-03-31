@@ -21,8 +21,9 @@ h2 {
     text-align: center;
 }
 table {
-	border-collapse: collapse;
-	width: 40%;
+	border-collapse: seperate;
+	border-spacing: 15px;
+	width: 100%;
 }
 div {
 	margin-bottom: 10px;
@@ -37,6 +38,9 @@ div span {
 	background-color: #000;
 	color: #fff;
 } 
+span {
+	margin: 10px;
+}
 .reseptikaks {
 	color: #FDD017;
 }
@@ -88,3 +92,6 @@ body, html {
   .navbar li a:hover {
     background-color: #71a12f;
   }
+ p {
+	 font-size: 15px;
+ }
