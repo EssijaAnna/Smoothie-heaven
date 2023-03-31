@@ -50,3 +50,7 @@ h3 {
 	font-size: 20px;
 	line-height: 1.4;
 }
+select {
+    padding-left: 50px;
+    size: 50px;
+}
