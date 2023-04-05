@@ -1,23 +1,67 @@
-.etusivu {
-    background-image: url("mango.png");
-    background-size: cover
+.etusivu1 {
+  margin: 10;
+  padding: 5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1 {
-color: rgb(248, 250, 253);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-font-size: 2cm;
+.hero {
+  width: 50%;
+  margin: 100px;
+}
+.navbar1 {
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+}
+.banner {
+  display: flex-item;
+  margin-top: 50px;
+}
+.left-column {
+  flex-basis: 50%;
+}
+.left-column img {
+  width: 100%;
+  padding-top: 20px;
+}
+.etusivutext {
 
 }
+.right-column {
+  flex-basis: auto;
+  padding-top: 20px;
+}
+.btn button {
+  padding: 7px 30px;
+  margin-right: 15px;
+  outline: none;
+  border: 1px solid #77A8E8;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #FDD017;
+  background: transparent;
+}
+
+  
+.etusivuot {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.etusivuots {
+  padding: auto;
+  font-family: 'Times New Roman', Times, serif;
+  color: #77A8E8;
+}
+h1 {
+color: #FDD017;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+font-size: 2cm;
+}
+
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
-.sivu1 {
-    color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    size: 1cm;
-}
+
 .textkeskitetty {
     text-align: center;
 }
@@ -71,30 +115,33 @@ select {
 }
 
 .navbar {
-    background-color: #FDD017;
-    width: fit-content;
+  background-color: #FDD017;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   }
   
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
   
-  .navbar li {
-    float: left;
-  }
+.navbar li {
+  float: left;
+}
   
-  .navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration;
-  }
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   
-  .navbar li a:hover {
-    background-color: #77A8E8;
-  }
+.navbar li a:hover {
+  background-color: #77A8E8;
+}
  
