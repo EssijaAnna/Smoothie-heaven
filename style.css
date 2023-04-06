@@ -3,6 +3,7 @@
   margin: 10px;
   padding: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-s;
+  max-width: fit-content;
 }
 
 .main {
@@ -26,8 +27,9 @@
 }
 
 .etusivutext {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  color: #000;
 }
 .right-column {
   flex-basis: 10%;
@@ -43,17 +45,17 @@
   padding: 7px 30px;
   margin-right: 15px;
   outline: none;
-  border: 1px solid #FC6C85;
+  border: 1px solid #FDD017;
   border-radius: 20px;
   cursor: pointer;
-  color: #FC6C85;
+  color: #FDD017;
   background: transparent;
-  color: #fff;
 }
 
 .btn .primary-btn {
-  background: linear-gradient(#FC6C85, #f14a60);
-  box-shadow: 0 2px 15px rgba(248, 38, 103, 0.26);
+  background: linear-gradient(#FDD017, #fccb05);
+  box-shadow: 0 2px 15px yellow(248, 38, 103, 0.26);
+  text-decoration: none;
 }
 
 .etusivuot {
@@ -62,7 +64,7 @@
 
 .etusivuots {
   padding: auto;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #77A8E8;
 }
 
